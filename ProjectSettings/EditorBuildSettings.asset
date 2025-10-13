@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Create-with-VR-Starter-Scene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/David_room.unity
     guid: d34f40fe3e45340b9a08c7bda70bee7b
+  - enabled: 1
+    path: Assets/Scenes/David_Room_U6.unity
+    guid: 58a0a1c1eeb0e44acb1f753f3bb10d78
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}
@@ -20,3 +23,4 @@ EditorBuildSettings:
       type: 2}
     xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: f4f50c8f8f3454c90a388877cf1a2c81,
       type: 2}
+  m_UseUCBPForAssetBundles: 0
