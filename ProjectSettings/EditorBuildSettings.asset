@@ -11,9 +11,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/David_room.unity
     guid: d34f40fe3e45340b9a08c7bda70bee7b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/David_Room_U6.unity
     guid: 58a0a1c1eeb0e44acb1f753f3bb10d78
+  - enabled: 0
+    path: Assets/Challenges/01_Architecture/Scenes/Architecture_Prototype_Broken.unity
+    guid: 15e24606183024cb792c3d70eb38662f
+  - enabled: 1
+    path: Assets/Scenes/Lab_VR_Stress_Room/Main_Stress_Room.unity
+    guid: a22cf382c2dfa4b65a2e5a3099dbc30a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}
