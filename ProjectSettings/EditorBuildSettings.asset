@@ -20,9 +20,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Lab_VR_Stress_Room/Main_Stress_Room.unity
     guid: a22cf382c2dfa4b65a2e5a3099dbc30a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/VR_Room_Using_Started_Assets.unity
     guid: e8ff3e9da73e1403fbcdedcbae0f8050
+  - enabled: 1
+    path: Assets/Challenges/02_3DPainting/Scenes/3DPainting_Prototype_Fixed.unity
+    guid: 243b050fbcc0243a3bd74ac51a9677a8
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}
