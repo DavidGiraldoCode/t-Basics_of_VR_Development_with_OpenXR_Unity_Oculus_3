@@ -236,7 +236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4472888629703756002}
   m_Layer: 0
-  m_Name: WorlRef
+  m_Name: WorldRef
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
