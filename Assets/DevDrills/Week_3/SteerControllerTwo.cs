@@ -43,7 +43,7 @@ public class SteerControllerTwo: MonoBehaviour
     void Update()
     {
 
-        // The General algorithm is before:
+        // The General algorithm is therefore:
 
         // Get the input
         GetSteeringInstructions();
@@ -73,7 +73,9 @@ public class SteerControllerTwo: MonoBehaviour
         // If the objects needs to accelerate or not
         _gass = controlVec.y < 0 ? -1 : controlVec.y > 0 ? 1 : 0;
 
-        // This removes the mirrowing effect when turning backwards
+        // This removes the mirrowing effect when turning in reverse
+        // But also disabled the visual rotation when the object is not moving
+        // Building on the experience of driving a car and not a tank.
         _sign *= _gass;
 
         // Right or left
@@ -139,6 +141,7 @@ public class SteerControllerTwo: MonoBehaviour
 
         // Apply drag
         //_velocity = _velocity - ((-1f * _velocity.normalized) * _dragFactor) * delta;
+        //? Idea for mechanic exploration, the drag factor could be dinamically updates based on the surface the object appears to be on
         _velocity = _velocity * Mathf.Max(0, (1f - _dragFactor * delta)); //! STUDY
 
         // Find new poition at t+1
