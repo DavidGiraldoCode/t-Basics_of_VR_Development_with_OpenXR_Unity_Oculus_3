@@ -23,9 +23,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/VR_Room_Using_Started_Assets.unity
     guid: e8ff3e9da73e1403fbcdedcbae0f8050
-  - enabled: 1
+  - enabled: 0
     path: Assets/Challenges/02_3DPainting/Scenes/3DPainting_Prototype_Fixed.unity
     guid: 243b050fbcc0243a3bd74ac51a9677a8
+  - enabled: 0
+    path: Assets/Scenes/VR_GolfClub_and_ball.unity
+    guid: 9dbd18f86876e4ee08d04dc9ce54ce43
+  - enabled: 1
+    path: Assets/Scenes/Golf_assets/Green.unity
+    guid: d7a239c6b2f8d45348c260c5afc43cf2
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
       type: 2}
