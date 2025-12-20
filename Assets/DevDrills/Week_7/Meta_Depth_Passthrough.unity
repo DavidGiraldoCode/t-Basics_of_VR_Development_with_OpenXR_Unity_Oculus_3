@@ -522,6 +522,7 @@ GameObject:
   - component: {fileID: 160701928}
   - component: {fileID: 160701927}
   - component: {fileID: 160701926}
+  - component: {fileID: 160701933}
   m_Layer: 0
   m_Name: XR Origin (Mobile AR)
   m_TagString: Untagged
@@ -560,7 +561,8 @@ MonoBehaviour:
   <trackablesChanged>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  m_PlanePrefab: {fileID: 0}
+  m_PlanePrefab: {fileID: 6920961738670409740, guid: 180c9166a62a74016bb6f1cfd18040d8,
+    type: 3}
   m_DetectionMode: -1
 --- !u!114 &160701928
 MonoBehaviour:
@@ -609,6 +611,23 @@ Transform:
   - {fileID: 817011300}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &160701933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160701925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36c26a894c4b4a7fa891eaf696025cd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.ARFoundation::UnityEngine.XR.ARFoundation.ARBoundingBoxManager
+  <trackablesChanged>k__BackingField:
+    m_PersistentCalls:
+      m_Calls: []
+  m_BoundingBoxPrefab: {fileID: 6807161589643305447, guid: 90d960a8cd3d54f08863426661e2c2a0,
+    type: 3}
 --- !u!1001 &193289568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4309,7 +4328,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.5, y: 0.256, z: 0}
-  m_LocalScale: {x: 0.05, y: -0.02, z: 0.09}
+  m_LocalScale: {x: 0.05, y: 0.02, z: 0.09}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1507698407}
